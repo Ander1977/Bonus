@@ -4,15 +4,10 @@ public class Main {
         int bonus = 1;
         int refill = 2450;
         if (refill > 1000) {
-            bonus = 1;
-        }
+            bonus = 1; }
         else { bonus = 0; }
-
-        
-
-        long totalbonus = refill * bonus / 100;
-
-        System.out.println(totalbonus);
+        long totalBonus = refill * bonus / 100;
+        System.out.println(totalBonus);
 
     }
 }
